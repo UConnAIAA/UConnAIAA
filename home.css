@@ -166,7 +166,7 @@ animation: universe 0.6s ease-in-out 0.4s;
     color:black;
 }
   .page1 {
-    background-image: url("photos/PLTEST1.png");
+    background-image: url('photos/PLTEST1.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0%;
@@ -191,7 +191,7 @@ animation: universe 0.6s ease-in-out 0.4s;
      height: 100%;
     }}
   .page3{
-    background-image: url('photos/HPLTEST1.jpg');
+    background-image: url('photos/HPLTEST1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;

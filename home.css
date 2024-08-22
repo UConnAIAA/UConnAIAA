@@ -55,8 +55,6 @@ body{
 }
 
 .logo{
-    width:220px;
-    height: 220px;
     margin-top: 15px;
     margin-left: 20px;
     display: inline-block;
@@ -166,7 +164,7 @@ animation: universe 0.6s ease-in-out 0.4s;
     color:black;
 }
   .page1 {
-    background-image: url("photos/image.png\ \(1\).jpg");
+    background-image: url("photos/PLTEST1.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0%;
@@ -191,7 +189,7 @@ animation: universe 0.6s ease-in-out 0.4s;
      height: 100%;
     }}
   .page3{
-    background-image: url('photos/section-c.jpg');
+    background-image: url('photos/HPLTEST1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;

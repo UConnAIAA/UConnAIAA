@@ -166,7 +166,7 @@ animation: universe 0.6s ease-in-out 0.4s;
     color:black;
 }
   .page1 {
-    background-image: url("photos/section-a\ \(1\).jpg");
+    background-image: url("photos/image.png\ \(1\).jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 0%;
@@ -178,7 +178,7 @@ animation: universe 0.6s ease-in-out 0.4s;
     margin-bottom: 0%;
   }
   .page2{
-    background-image: url('photos/section-b.jpg');
+    background-image: url('photos/MicrosoftTeams-image.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;

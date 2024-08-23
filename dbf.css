@@ -448,20 +448,46 @@ align-items: center;
     padding: 10px;
 }
 
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
 .video-container {
-    max-width: 48%;
+    flex: 1;
+    padding-right: 10px;
 }
 
 .text-container {
-    max-width: 48%;
+    flex: 1;
+    max-width: 500px; /* Adjust this to control the paragraph width */
+    padding-left: 10px;
 }
 
-/* Responsive styling for smaller screens */
-@media (max-width: 768px) {
+.secondbutton {
+    background-color: #000; /* Your desired button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.secondbutton:hover {
+    background-color: #444; /* Hover color */
+}
+
+@media screen and (max-width: 768px) {
+    .content-section {
+        flex-direction: column;
+    }
+
     .video-container, .text-container {
-        flex-basis: 100%;
+        padding: 0;
         max-width: 100%;
-        margin-bottom: 20px;
     }
 }
+
 }

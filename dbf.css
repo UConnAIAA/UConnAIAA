@@ -6,6 +6,10 @@ html{
 body{
     margin: 0%;
     background-color: black;
+    width: 100%;
+    padding: 0;
+    overflow-x: hidden;
+    
 }
 .preloader {
   top: 0;
@@ -93,6 +97,8 @@ body{
     align-items: center;
     color: white;
     padding-top: 250px;
+    width: 100%;
+    margin: 0 auto;
   }
   .line7{
     text-transform: uppercase;
@@ -355,9 +361,9 @@ padding-left: 170px;
 }
 @media(max-width:600px){
   /* .center{
-text-align: left;
-padding-left: 0%;
-margin-left: 20px;
+text-align: center;
+width: 100%;
+margin-left: 0;
   }
 
   .center2{
@@ -388,12 +394,13 @@ font-size:28px;
   margin-left:140px;
 } 
 .fcenter{
-  text-align: left;
+  text-align: center;
 padding-left: 0%;
-margin-left: 20px;
+margin-left: 0;
 display: flex;
 justify-content: center;
 align-items: center;
+padding-top: 200px;
 }
 .line7{
   font-size:32px;
@@ -401,6 +408,7 @@ align-items: center;
 .line8{
   width: 400px;
   line-height: 1.2;
+  padding: 0 20px;
 }
 .java{
   display: flex;

@@ -470,7 +470,7 @@ padding-top: 200px;
 
 .text-container {
     flex: 1;
-    max-width: 500px; /* Adjust this to control the paragraph width */
+    max-width: 300px; /* Adjust this to control the paragraph width */
     padding-left: 10px;
 }
 

@@ -435,4 +435,33 @@ align-items: center;
   text-align: end;
   padding-bottom: 5px;
 }
+    .content-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.video-container, .text-container {
+    flex: 1 1 48%; /* Flex basis of 48% gives space for margins */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.video-container {
+    max-width: 48%;
+}
+
+.text-container {
+    max-width: 48%;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .video-container, .text-container {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
 }

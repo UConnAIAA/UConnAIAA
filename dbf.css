@@ -481,10 +481,15 @@ padding-top: 200px;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    animation: universe 0.6s ease-in-out 0.4s;
+    animation-fill-mode: both;
+    text-align: center;
+    font-weight: 600;
 }
 
 .secondbutton:hover {
     background-color: #444; /* Hover color */
+    color: black;
 }
 
 @media screen and (max-width: 768px) {

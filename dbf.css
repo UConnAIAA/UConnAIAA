@@ -454,6 +454,7 @@ padding-top: 200px;
     flex: 1 1 48%; /* Flex basis of 48% gives space for margins */
     box-sizing: border-box;
     padding: 10px;
+    max-width: 600px;
 }
 
 .content-section {
@@ -468,11 +469,7 @@ padding-top: 200px;
     padding-right: 10px;
 }
 
-.text-container {
-    flex: 1;
-    max-width: 300px; /* Adjust this to control the paragraph width */
-    padding-left: 10px;
-}
+
 
 .secondbutton {
     background-color: #000; /* Your desired button color */

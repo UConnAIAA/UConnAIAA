@@ -112,7 +112,7 @@ body {
 }
 
 .page7 {
-    background-image: url('photos/hplgroup1.png');
+    background-image: url('photos/hplgroup1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -351,7 +351,7 @@ body {
     align-items: flex-start;
     margin: 50px auto;
     width: 90%;
-    max-width: 1200px;
+    max-width: 900px;
 }
 
 .video-container, .text-container {

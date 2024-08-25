@@ -463,8 +463,9 @@ padding-top: 200px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 20px 0;
+    margin: 50px 0;
     width: 100%;
+    max-width:500px;
 }
 
 .video-container, .text-container {

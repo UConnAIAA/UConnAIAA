@@ -584,4 +584,31 @@ font-size:28px;
   font-size: 12px;
   text-align: end;
   padding-bottom: 5px;
-}}
+}
+.sponsors-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.sponsors-section h2 {
+    margin-bottom: 30px;
+}
+
+.sponsors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sponsor img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px;
+    object-fit: contain;
+}
+}

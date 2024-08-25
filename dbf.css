@@ -348,8 +348,6 @@ body {
 }
 
 .content-section {
-    display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     margin: 50px auto;
     width: 90%;
@@ -409,6 +407,8 @@ body {
     .logo {
         margin-left: 20px;
         padding-left: 0;
+        height: 50px;
+        width: 120px;
     }
 
     .fcenter {

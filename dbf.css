@@ -462,6 +462,7 @@ padding-top: 200px;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    max-width: 200px;
 }
 
 .video-container {

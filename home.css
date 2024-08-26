@@ -1,7 +1,8 @@
 html{
     font-family: 'Familjen Grotesk', sans-serif;
     box-sizing: border-box;
-    
+    width: 100%;
+    overflow-x: hidden;
 }
 
 body {

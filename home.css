@@ -633,7 +633,12 @@ font-size:28px;
     .sponsors-grid {
         gap: 20px;
     }
-    
+    .logo {
+        margin-left: 20px;
+        padding-left: 0;
+        height: 50px;
+        width: 120px;
+    }
     .sponsor {
         width: 100px;
         height: 100px;
@@ -652,6 +657,20 @@ font-size:28px;
     
     .sponsors-section h2 {
         font-size: 20px;
+    }
+}
+    @media (max-width: 960px) {
+    .tags {
+        display: none;
+    }
+    .mobihide {
+        display: block;
+    }
+         .logo {
+        margin-left: 20px;
+        padding-left: 0;
+        height: 50px;
+        width: 120px;
     }
 }
 }

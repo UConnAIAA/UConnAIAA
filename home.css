@@ -586,7 +586,7 @@ font-size:28px;
   font-size: 12px;
   text-align: end;
   padding-bottom: 5px;
-}
+}}
 .sponsors-section {
     background-color: #000000; /* Set to black, adjust as needed */
     padding: 40px 20px;
@@ -675,4 +675,4 @@ font-size:28px;
         width: 120px;
     }
 }
-}
+}}

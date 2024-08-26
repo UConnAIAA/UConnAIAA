@@ -7,6 +7,7 @@ html{
 body{
     margin: 0%;
     background-color: black;
+    width: 100%;
 }
 
 .preloader {
@@ -41,6 +42,7 @@ body{
     display:flex;
     flex-direction: row;
     position: fixed;
+    width: 100%;
     z-index: 3;
     height: 60px;
     margin-top: 5px;
@@ -402,7 +404,7 @@ font-size:28px;
   position: fixed;
   top:0;
   right: 0;
-  width:100%;
+  width:250px;
   height: 100%;
   background-color: black;
   display: flex;
@@ -591,7 +593,6 @@ font-size:28px;
 
 .sponsors-section h2 {
     margin-bottom: 20px;
-    color: white;
 }
 
 .sponsors-grid {
@@ -600,7 +601,7 @@ font-size:28px;
     gap: 15px;
     justify-items: center;
     align-items: center;
-    max-width: 100px;
+    max-width: 500px;
     margin: 0 auto;
 }
 

@@ -543,7 +543,7 @@ overflow:hidden;
 text-align: left;
 padding-left: 0%;
 margin-left: 20px;
-      width: 100%;
+    
   }
 
   .center2{
@@ -557,7 +557,6 @@ margin-left: 20px;
 text-align: left;
 padding-left: 0%;
 margin-left: 20px;
-      width: 100%;
   }
   .line4{
 font-size:28px;
@@ -679,6 +678,18 @@ font-size:28px;
         padding-left: 0;
         height: 50px;
         width: 120px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .line2, .line4, .line5, .line6 {
+        font-size: 32px;
+    }
+
+    .line3 {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 18px;
+        padding: 0 20px;
     }
 }
 }

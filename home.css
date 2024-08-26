@@ -598,18 +598,25 @@ font-size:28px;
 
 .sponsors-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
     justify-items: center;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
+}
+
+.sponsor {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sponsor img {
     max-width: 100%;
-    height: auto;
-    max-height: 100px;
+    max-height: 100%;
     object-fit: contain;
 }
 }

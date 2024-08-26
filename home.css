@@ -607,9 +607,9 @@ font-size:28px;
 }
 
 .sponsor img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
-    max-height: 50%;
+    max-height: 100px;
     object-fit: contain;
 }
 }

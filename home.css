@@ -606,8 +606,7 @@ font-size:28px;
 }
 
 .sponsor {
-    width: 100%;
-    max-width: 100px;
+    max-width: 50px;
     aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
